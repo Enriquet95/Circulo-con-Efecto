@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enrique</title>
+    <style>
+        .forma{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border: 10px double blue;
+            
+            float: left;
+            box-shadow: 5px 4px 10px 2px green;
+            animation: color-cambiar 1s infinite;
+        }
+        .forma:hover{
+            background-color: yellow;
+        }
+        @keyframes color-cambiar{
+            from{background-color: red;}
+            to{ background-color: yellow; border-radius:     100px }
+        }
+    </style>
+</head>
+<body>
+    <div class="forma">
+
+    </div>
+</body>
+</html>
